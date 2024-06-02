@@ -4,27 +4,6 @@
 
 To repozytorium zawiera pipeline CI/CD skonfigurowany za pomocą GitHub Actions do budowania, testowania i wdrażania obrazów Dockerowych dla aplikacji Pythona oraz statycznego serwera obsługiwanego przez BusyBox. Pipeline obejmuje skanowanie podatności za pomocą Docker Scout, aby zapewnić, że obrazy są wolne od podatności o wysokim stopniu zagrożenia przed ich przesłaniem do GitHub Container Registry (ghcr.io).
 
-## Struktura Repozytorium
-
-Zadanie_nr_2/
-│
-├── .github/
-│ └── workflows/
-│ └── gha_example.yml
-│
-├── src/
-│ └── index.html
-│
-├── app/
-│ ├── Dockerfile
-│ ├── requirements.txt
-│ └── server.py
-│
-├── Dockerfile
-├── README.md
-└── LICENSE
-
-
 ## Konfiguracja CI/CD Pipeline
 
 CI/CD pipeline jest zdefiniowany w pliku `gha_example.yml` znajdującym się w katalogu `.github/workflows/`. Workflow wykonuje następujące kroki:
