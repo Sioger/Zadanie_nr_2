@@ -49,7 +49,7 @@ Workflow wykonuje następujące kroki:
 
 ![Plik Ya](images/ghtag.png)
 
-![Plik Ya](images/ghpushtag.png)
+![Plik Ya](images/gitpushtag.png)
 
 ## Jak Skonfigurować Sekrety
 
@@ -59,6 +59,18 @@ Aby użyć tego pipeline'u, musisz skonfigurować następujące sekrety w ustawi
 - **GHCR_TOKEN:** Token GitHub z uprawnieniami do zapisu w GitHub Container Registry.
 
 ![Plik Yaml część 1](images/tokensvariable.png)
+
+## Wysłanie na Github
+
+![Plik Ya](images/ghrunwatch.png)
+
+## Sprawdzenie na Dockerhub
+
+![Plik Ya](images/dhimages.png)
+
+## Sprawdzenie na Github w repozytorium projektu w Actions
+
+![Plik Ya](images/workflowsumary.png)
 
 ## Przykładowy Index.html
 
