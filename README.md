@@ -70,7 +70,7 @@ Aby użyć tego pipeline'u, musisz skonfigurować następujące sekrety w ustawi
 
 ## Sprawdzenie na Github w repozytorium projektu w Actions
 
-![Plik Ya](images/workflowsumary.png)
+![Plik Ya](images/worklflowsumary.png)
 
 ## Przykładowy Index.html
 
