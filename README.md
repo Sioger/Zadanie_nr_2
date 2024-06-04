@@ -6,8 +6,12 @@ To repozytorium zawiera pipeline CI/CD skonfigurowany za pomocą GitHub Actions 
 
 ## Konfiguracja CI/CD Pipeline
 
-CI/CD pipeline jest zdefiniowany w pliku `gha_example.yml` znajdującym się w katalogu `.github/workflows/`. Workflow wykonuje następujące kroki:
+CI/CD pipeline jest zdefiniowany w pliku `gha_example.yml` znajdującym się w katalogu `.github/workflows/`. 
 
+![Plik Yaml część 1](images/plikyaml.png)
+![Plik Yaml część 2](images/plikyaml2.png)
+
+Workflow wykonuje następujące kroki:
 1. **Checkout Repozytorium:**
    - Wykorzystuje akcję `actions/checkout@v4` do pobrania repozytorium.
 
@@ -37,12 +41,24 @@ CI/CD pipeline jest zdefiniowany w pliku `gha_example.yml` znajdującym się w k
 2. **Ręczne Uruchomienie:**
    - Możesz ręcznie uruchomić workflow za pomocą zdarzenia `workflow_dispatch`.
 
+## Przygotowania do wysyłania
+
+![Podstawy](images/ghpodstawy.png)
+
+![Plik Ya](images/ghpush.png)
+
+![Plik Ya](images/ghtag.png)
+
+![Plik Ya](images/ghpushtag.png)
+
 ## Jak Skonfigurować Sekrety
 
 Aby użyć tego pipeline'u, musisz skonfigurować następujące sekrety w ustawieniach repozytorium GitHub:
 
 - **GHCR_USERNAME:** Twoja nazwa użytkownika na GitHub.
 - **GHCR_TOKEN:** Token GitHub z uprawnieniami do zapisu w GitHub Container Registry.
+
+![Plik Yaml część 1](images/tokensvariable.png)
 
 ## Przykładowy Index.html
 
