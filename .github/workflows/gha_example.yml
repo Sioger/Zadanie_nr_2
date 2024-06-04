@@ -60,9 +60,10 @@ jobs:
         name: Docker Scout CVE test
         uses: docker/scout-action@v1
         with:
-          command: cve
+          command: cves
           image: ${{ steps.build-image.outputs.digest }}
           only-severities: high
+          exit-code: true
 
       - 
         name: Push Docker image to ghcr.io
